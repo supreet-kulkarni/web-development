@@ -1,40 +1,60 @@
 <html>
-    <head>
-        <title>Card</title>
-        <style>
-            .main{
-                margin-top:10%;
-                margin-left:40%;
-            }
-            .round{
-                z-index:1;
-                height:130px;
-                width:130px;
-                position: absolute;
-                background-size:cover;
-                background-image: url(profile.png);
-                left:45%;
-                top: 15%;
-                border-radius:50%;
-                background-color:#93a6f1;
-                
-            }
-            .card{
-                height:450px;
-                width:300px;
-                background-color:#dadee0;
-                border-radius:30px;
-                box-shadow:10px 10px #999092;
-            }
 
-        </style>
-    </head>
-    <body>
-        <div class="main">
+<head>
+    <title>Card</title>
+    <style>
+        .main {
+            margin-top: 10%;
+            margin-left: 40%;
+        }
+
+        .round {
+            z-index: 1;
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            background-size: cover;
+            background-image: url(profile.png);
+            left: 44%;
+            top: 15%;
+            border-radius: 50%;
+            background-color: #93a6f1;
+
+        }
+
+        .card {
+            height: 350px;
+            width: 250px;
+            background-color: #dadee0;
+            border-radius: 30px;
+            box-shadow: 10px 10px #999092;
+        }
+
+        .card h1 {
+            padding-top: 35%;
+            padding-left: 35%;
+        }
+
+        .text {
+            margin: 5%;
+            padding-left:5%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
         <div class="round"> </div>
-         <div class="card">
-
-         </div>
+        <div class="card">
+            <h1>Name</h1>
+            <div class="text">
+                <p>Ph no:</p>
+                <p>Email:</p>
+                <p>Address:</p>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
